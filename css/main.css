@@ -1,0 +1,252 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+header {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 950px;
+    padding-top: 50px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.sphere {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+    background-color: darkred;
+    height: 200px;
+    width: 200px;
+    opacity: 0.7;
+    
+    animation: spin 4s ease-in-out 1s infinite alternate;
+}
+
+.sphere:hover {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+     25%, 50% {
+        background-color: lightsalmon;
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.sphere p {
+    align-self: center;
+    color: lightyellow;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading {
+    margin: 50px 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.button {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightyellow;
+    border: 1px solid lightyellow;
+    padding: 12px;
+}
+
+/* Секция с информацией */
+
+.infoflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#img1, #img2, #img3 {
+    height: 370px;
+    border: 2px solid lightyellow;
+}
+
+.members {
+    flex-grow: 1;
+    text-align: center;
+    background: url(../img/goldbg.jpg);
+    padding-top: 50px;
+    border: 2px solid lightyellow;
+}
+
+.members h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#orchestra {
+    margin-top: 20px;
+    font-weight: bold;   
+}
+
+/* Вторая строка секции с информацией */
+
+.pieces, .when h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.pieces {
+    background: url(../img/goldbg.jpg);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid lightyellow;
+}
+
+.when {
+    background: url(../img/goldbg.jpg);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid lightyellow;
+}
+
+/* Секция авангард */
+
+.avangardheading {
+    background: url(../img/poloskaanimation.gif);
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.avangardheading h4 {
+    color: coral;
+    font-size: 40px;
+    line-height: 200px;
+    text-transform: uppercase;
+}
+
+/* Форма обратной связи */
+.contact_section {
+    background: url(../img/bg2.jpg);
+    height: 920px;
+    padding-top: 50px;
+}
+.avangard_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_heading {
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+}
+.doctors {
+    font-size: 25px;
+}
+
+/* Анимация глаза */
+.eye {
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 97px;
+    width: 158px;
+    background: url(../img/glaz_right_smotrit_morgaet.gif);
+}
+.eye:hover {
+    background: url(../img/right_glaz_smotrit_vpravo-vlevo.gif);
+}
+
+/* Форма обратной связи */
+.contact_wrapper {
+    display: inline;
+    width: 753px;
+    margin: 0 auto;
+}
+.form_inputs{
+    display: flex;
+}
+form p {
+    color: coral;
+}
+input {
+    height: 40px;
+    width: 360px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+    background-color: darkred;
+}
+input:first-of-type {
+    margin-right: 23px;
+}
+.red {
+    color: red;
+}
+textarea {
+    background-color: darkred;
+    height: 163px; 
+    width: 100%;
+}
+input, textarea {
+    border: 1px solid coral;
+    margin-top: 5px;
+}
+.button_block {
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit] {
+    height: 40px;
+    width: 165px;
+    background: black;
+    color: coral;
+    font-family: Comic Sans MS;
+    margin-right: 0;
+    margin-top: 20px;
+}
