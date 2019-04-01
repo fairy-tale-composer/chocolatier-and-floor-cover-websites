@@ -120,9 +120,12 @@ nav {
     background: #CFA783;
     color: #fff;
 }
-.menu a:active {
-    background: #B77231;
-    color: #fff; 
+.active {
+		background-color: #EC9243;
+		box-shadow: 0 0 5px rgba(115, 39, 0,8);
+	}
+.active a {
+	color: #fff;
 }
 /* Секция */
 section {
