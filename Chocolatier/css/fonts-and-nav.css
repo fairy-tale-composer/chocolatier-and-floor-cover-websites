@@ -1,0 +1,127 @@
+@font-face {
+	font-family: a_DomIno;
+	src: url(../fonts/a_DomIno.ttf);
+}
+@font-face {
+	font-family: ArtistNouveau;
+	src: url(../fonts/ArtistNouveau.ttf);
+}
+@font-face {
+	font-family: JakobTT;
+	src: url(../fonts/jakobtt.ttf);
+}
+@font-face {
+	font-family: JakobTT-bold;
+	font-weight: bold;
+	src: url(../fonts/jakobtt-bold.ttf);
+}
+@font-face {
+	font-family: Allods-West;
+	src: url(../fonts/Allods-West.ttf);
+}
+body {
+	font-family: a_DomIno;
+	margin: 0;
+	padding: 0;
+	color: #756F63;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+body p {
+	font-family: Allods-West;
+	font-size: 1em;
+	font-weight: 100;
+	line-height: 1.7em;
+}
+div {
+	box-sizing: border-box;
+}
+.top-fixed-wrap {
+	background-color: rgba(5, 2, 1, 0.6);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-toggler {
+	background: url(../img/menu-icon1.jpg) no-repeat center top / cover;
+	width: 50px;
+	height: 50px;
+	margin: 10px 0;
+	margin-left: 10px;
+	display: none;
+	border: none;
+	box-shadow: 0 0 7px #E2B593; 
+}
+.nav-list {
+	margin: 0;
+	display: block;
+}
+.nav-item {
+	display: inline-block;
+	padding: 20px 20px;
+}
+.nav-item a {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	color: #CEC5B9;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav-item-active a {
+	color: #DCB78B;
+}
+.nav-item a:hover {
+	color: #fff;
+}
+.icons {
+	display: flex;
+	align-items: center;
+}
+.top-fixed-wrap img {
+	height: 40px;
+	width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-toggler {
+		display: inline;
+	}
+	.nav-list {
+		width: 300px;
+		padding: 10px 0;
+		display: none;
+	}
+	.nav-list-dropped {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-item {
+		padding: 10px 20px;
+	}
+	.nav-item a {
+		font-size: 18px;
+	}
+@media screen and (max-width: 490px) {
+	nav {
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-list {
+		width: 180px;
+	}
+	.icons {
+		width: 120px;
+		padding: 0 20px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+}
