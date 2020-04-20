@@ -42,22 +42,20 @@ div {
 	width: 100%;
 	position: fixed;
 	top: 0;
-	z-index: 2;
+	z-index: 3;
 }
 nav {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 }
 .nav-toggler {
 	background: url(../img/menu-icon1.jpg) no-repeat center top / cover;
 	width: 50px;
 	height: 50px;
-	margin: 10px 0;
-	margin-left: 10px;
+	margin-right: 15px;
 	display: none;
 	border: none;
-	box-shadow: 0 0 7px #E2B593; 
+	box-shadow: 0px 0px 7px #fff, 2px 2px 7px #fff, -2px -2px 7px #fff;
 }
 .nav-list {
 	margin: 0;
@@ -88,40 +86,80 @@ nav {
 	height: 40px;
 	width: 40px;
 }
-
+footer {
+	margin-top: 20px;
+	padding: 20px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(187, 134, 103, 0.8);
+}
+.export-info {
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
 @media screen and (max-width: 768px) {
+	.top-fixed-wrap {
+		background: none;
+		display: flex;
+		right: 0;
+		width: auto;
+		height: 450px;
+	}
+	.nav-wrap-mob {
+		background-color: rgba(187, 134, 103, 0.8);
+		box-shadow: -3px 3px 5px #BE8A65;
+	}
 	.nav-toggler {
 		display: inline;
 	}
+	nav {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.icons {
+		visibility: hidden;
+		flex-wrap: wrap;
+		align-self: center;
+		width: 80px;
+	}
 	.nav-list {
-		width: 300px;
-		padding: 10px 0;
-		display: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+		visibility: hidden;
 	}
 	.nav-list-dropped {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
+		visibility: visible;
+		padding: 0 15px;
 	}
 	.nav-item {
-		padding: 10px 20px;
+		padding: 10px 0;
 	}
 	.nav-item a {
 		font-size: 18px;
+		color: #fff;
 	}
-@media screen and (max-width: 490px) {
-	nav {
-		justify-content: center;
-		align-items: center;
+	.nav-item a:hover {
+		color: #4E1D14;
 	}
-	.nav-list {
-		width: 180px;
+	.export-info {
+		font-size: 16px;
 	}
-	.icons {
-		width: 120px;
-		padding: 0 20px;
-		flex-wrap: wrap;
-		align-items: center;
+}
+@media screen and (max-width: 675px) {
+	.export-info {
+		width: 410px;
+	}
+	.export-info:last-of-type {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.export-info {
+		width: 250px;
 	}
 }

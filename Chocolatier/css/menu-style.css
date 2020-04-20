@@ -1,0 +1,267 @@
+header {
+	background: url(../menu-img/choco-blur-bg1.jpg) no-repeat center bottom / cover;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.header-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.header-heading:before {
+	content:'';
+	display: block;
+	padding-top: 21%;
+}
+h1 {
+	font-family: ArtistNouveau;
+	font-size: 4.5em;
+	letter-spacing: 0.03em;
+	color: #fff;
+	text-shadow: 0 0 10px rgb(246, 150, 87), 0 2px 10px rgb(246, 150, 87), 5px -3px 10px rgb(69, 34, 15);
+}
+.menu-section {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 18%;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 7px #BB8667, 1px -1px 7px #BB8667;
+}
+.line {
+	height: 2px;
+	width: 95%;
+	margin: 0 auto;
+	background-color: #A9827B;
+}
+.menu-heading {
+	font-family: JakobTT;
+	font-size: 2.5em;
+	font-weight: 100;
+	line-height: 2.2em;
+	color: #794841;
+	padding-left: 3%;
+}
+.second-line {
+	margin-bottom: 20px;
+}
+#desserts-second-line {
+	margin-bottom: 40px;
+}
+.menu-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#dialog-bg {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: none;
+}
+dialog {
+	width: 473px;
+	border: 2px solid #A9827B;
+	border-radius: 5px;
+	padding: 20px;
+	z-index: 10;	
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+#card-close-btn {
+	background: url(../menu-img/close-btn1.png) no-repeat center top / cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	border: none;
+}
+#card-close-btn:hover {
+	background-image: url(../menu-img/close-btn.png);
+	cursor: pointer;
+}
+.hidden-img {
+	display: none;
+}
+dialog h4 {
+	font-family: Allods-West;
+	font-size: 1.6em;
+	font-weight: 100;
+	line-height: 1.5em;
+	color: #612C24;
+	margin: 0.3em 0;
+}
+.card-money {
+	font-family: Allods-West;
+	font-size: 1.6em;
+	color: #BC9373;
+}
+dialog h5 {
+	font-size: 1.6em;
+	font-weight: 100;
+	color: #8C4D3C;
+	margin: 0.5em 0;
+}
+.card-line {
+	width: 100%;
+	height: 1px;
+	background-color: #BC9373; 
+}
+#requests {
+	font-family: Allods-West;
+	font-size: 1.2em;
+	font-weight: 100;
+	color: #BC9373;
+	text-decoration: none;
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+	cursor: pointer;
+	display: block;
+}
+.add-btn {
+	width: 1em;
+	height: 1em;
+	margin-right: 0.5em;
+}
+.requests-input {
+	display: none;
+	width: 97%;
+	height: 50px;
+	margin: 20px auto;
+	margin-bottom: 10px;
+	border: 1px solid #845855;
+	background-color: #FFEEE1;
+}
+#quantity-wrap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 10px;
+}
+#quantity {
+	flex-grow: 1;
+}
+.counter-border {
+	width: 30px;
+	height: 30px;
+	border: 2px solid #8C4D3C;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#quantity-plus {
+	background-color: #8C4D3C;
+	width: 2px;
+	height: 17px;
+	position: relative;
+	top: 5px;
+	left: 12px;
+}
+#quantity-plus:after {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: -8px ;
+	width: 17px;
+	height: 2px;
+	background-color: #8C4D3C;
+}
+#quantity-number {
+	margin: 0 5px 0 10px;
+}
+#kg {
+	margin-right: 10px;
+}
+#quantity-minus {
+	position: relative;
+	top: 12px;
+	left: 4px;
+	width: 17px;
+	height: 2px;
+	background-color: #8C4D3C;
+}
+.card-order-btn {
+	font-family: Allods-West;
+	font-size: 1.2em;
+	color: #F6F1D4;
+	background-color: #845855;
+	text-transform: uppercase;
+	width: 100%;
+	height: 2.5em;
+	border: none; 
+}
+.card-order-btn:hover {
+	border: 1px solid #845855;
+	color: #8C4D3C;
+	background: none;
+	cursor: pointer;
+}
+.menu-img {
+	max-width: 247px;
+	max-height: 205px;
+	width: 30%;
+	height: auto;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+.menu-img:hover {
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	cursor: pointer;
+}
+.menu-item h3 {
+	font-family: Allods-West;
+	font-size: 1.3em;
+	font-weight: 100;
+	line-height: 1.6em;
+	color: #612C24;
+	width: 360px;
+}
+.dessert-item h3 {
+	margin-left: 2%;
+}
+.price {
+	font-family: a_DomIno;
+	font-size: 1.5em;
+	color: #BB8667;
+}
+.menu-btn {
+	width: 240px;
+	height: 50px;
+	background: none;
+	border: none;
+	font-family: Allods-West;
+	font-size: 1.1em;
+	color: #A9827B;
+	cursor: pointer;
+}
+.menu-btn:hover {
+	border: 1px solid #A9827B;
+}
+.basket-icon {
+	display: none;
+	width: 50px;
+	height: 50px;
+}
+.basket-icon:active {
+	transform: scale(0.8);
+}
+#desserts-line {
+	margin-top: 50px;
+}
+.dessert-item {
+	margin-bottom: 30px;
+}

@@ -104,6 +104,9 @@
 	.chocofriend-content {
 		width: 580px;
 	}
+	.cacao-content h3 {
+		width: 280px;
+	}
 	.cacao-img {
 		width: 43%;
 	}
@@ -116,6 +119,26 @@
 		padding: 0 10%;
 	}
 }
+@media screen and (max-width: 1050px) and (min-height: 860px) {
+	header {
+		background-image: url(../img/chocolateBgRot.jpg);
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.titles-wrap {
+		width: auto;
+		height: auto;
+		padding: 3em 2em;
+		background: rgba(255, 255, 255, 0.2)
+	}
+	.header-btn {
+		margin-top: 3vh;
+	}
+}
+
 @media screen and (max-width: 835px) {
 	body {
 		font-size: 90%;
@@ -156,6 +179,9 @@
 	.chocofriend-content h4 {
 		font-size: 20px;
 	}
+	.cacao-content h3 {
+		width: auto;
+	}
 	.cacao-img {
 		width: 60%;
 	}
@@ -174,17 +200,17 @@
 }
 @media screen and (max-width: 768px) {
 	header {
+		background-image: url(../img/chocolateBgRot.jpg);
 		height: 100vh;
-		background: url(../img/chocolateBgRot.jpg) no-repeat center top;
-		background-size: 120%;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
 	.titles-wrap {
 		width: auto;
 		height: auto;
-		padding: 20px 30px;
+		padding: 3em 2em;
 		background: rgba(255, 255, 255, 0.2);
 	}
 	.chocolate-title {
@@ -193,7 +219,10 @@
 	}
 	.titles-wrap h1 {
 		font-size: 80px;
-		margin-bottom: 50px;
+		margin-bottom: 0.3em;
+	}
+	.header-btn {
+		margin-top: 3vh;
 	}
 	.header-btn a {
 		font-size: 24px;
@@ -204,6 +233,13 @@
 	}
 	#trufel-video-bg video {
 		display: none;
+	}
+	#candy-button2 {
+		width: 170px;
+		height: 130px;
+		background-size: contain;
+		background-position: center center;
+		background-repeat: no-repeat;
 	}
 	.contacts-section h2 {
 		font-size: 30px;
@@ -238,12 +274,20 @@
 		margin: 0;
 	}
 }
+@media screen and (max-width: 640px) {
+	.cacao-content h3 {
+		width: 310px;
+	}
+}
 @media screen and (max-width: 600px) {
+	.titles-wrap {
+		width: 100%;
+	}
 	#marina-img {
 		width: 70%;
 	}
 	.story-img {
-		width: 70%;
+		width: 80%;
 	}
 	.cacao-img {
 		width: 70%;
@@ -260,6 +304,9 @@
 		font-size: 64px;
 		letter-spacing: 0.05em;
 	}
+	.story-content {
+		padding: 25px 5%;
+	}
 	.story-content h2 {
 		line-height: 1.3em;
 	}
@@ -270,12 +317,9 @@
 		font-size: 18px;
 	}
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 420px) {
 	body {
 		font-size: 80%;
-	}
-	.titles-wrap {
-		width: 100%;
 	}
 	.chocolate-title {
 		font-size: 24px;
@@ -286,11 +330,20 @@
 	.header-btn a {
 		font-size: 22px;
 	}
+	.story-wrap {
+		padding: 0;
+	}
 	#marina-img {
 		width: 85%;
 	}
 	.story-img {
 		width: 85%;
+	}
+	.story-content h2 {
+		font-size: 2.4em;
+	}
+	.story-content h3 {
+		line-height: 2em;
 	}
 	.chocofriend-content {
 		width: 80%;
@@ -328,8 +381,5 @@
 		margin-right: 5px;
 		width: 30px;
 		height: 30px;
-	}
-	footer p {
-		font-size: 1.1em;
 	}
 }

@@ -1,0 +1,83 @@
+@media screen and (max-width: 992px) {
+	.title-wrap:before {
+		padding-top: 30%;
+	}
+	section {
+		margin-top: 25%;
+	}
+}
+@media screen and (max-width: 900px) {
+	section {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 768px) {
+	header h1 {
+		font-size: 7vw;
+		padding-bottom: 0.4em;
+	}
+}
+@media screen and (max-width: 675px) {
+	section {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 600px) {
+	header h1 {
+		font-size: 9vw;
+		width: 60vw;
+		text-align: center;
+		line-height: 1.2em;
+	}
+	.title-wrap:before {
+		padding-top: 35%;
+	}
+	section {
+		margin-top: 30%;
+	}
+}
+@media screen and (max-width: 525px) {
+	.title-wrap:before {
+		padding-top: 40%;
+	}
+	section {
+		width: 90%;
+		margin-top: 35%;
+	}
+}
+@media screen and (max-width: 450px) {
+	section {
+		padding: 70px 0 40px 0;
+	}
+}
+@media screen and (max-width: 400px) {
+	form {
+		align-items: center;
+		width: inherit;
+	}
+	form p {
+		margin-bottom: 5px;
+	}
+	label {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	input {
+		margin: 0;
+	}
+	.submit-btn {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 350px) {
+	header h1 {
+		font-size: 11vw;
+		width: 50vw;
+	}
+	.title-wrap:before {
+		padding-top: 50%;
+	}
+	section {
+		margin-top: 45%;
+	}
+}

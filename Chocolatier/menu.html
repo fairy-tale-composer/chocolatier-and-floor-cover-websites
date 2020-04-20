@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Меню</title>
+	<link rel="stylesheet" href="css/fonts-nav-footer.css">
+	<link rel="stylesheet" href="css/menu-style.css">
+	<link rel="stylesheet" href="css/menu-responsive.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+	<div id="dialog-bg"></div>
+	<div class="top-fixed-wrap">
+		<nav>
+			<button type="button" class="nav-toggler"></button>
+			<ul class="nav-list">
+				<li class="nav-item"><a href="index.html">Главная</a></li>
+				<li class="nav-item nav-item-active"><a href="menu.html">Меню</a></li>
+				<li class="nav-item"><a href="order.html">Заказать</a></li>
+				<li class="nav-item"><a href="index.html#contacts-section">Контакты</a></li>
+			</ul>
+			<div class="icons">
+				<img src="img/iconfacebr.png" title="facebook">
+				<img src="img/icontwitbr.png" title="twitter">
+				<img src="img/iconwhatsbr.png" title="whatsapp">
+				<img src="img/iconinstbr.png" title="instagram">
+			</div>
+        </nav>
+	</div>
+	<header>
+		<div class="header-heading">
+			<h1>Шоколад и десерты</h1>
+		</div>
+	</header>
+	<section class="menu-section">
+		<div class="line"></div>
+		<h2 class="menu-heading">Трюфели</h2>
+		<div class="line second-line"></div>
+		<dialog>
+			<img id="dialog-img" src="menu-img/trufelbig1.jpg">
+			<button type="button" id="card-close-btn"></button>
+			<h4 id="dialog-title">Трюфель из тёмного шоколада с орехами</h4>
+			<p><span class="card-money">$90</span></p>
+			<h5>Есть специальные пожелания?</h5>
+			<div class="card-line"></div>
+			<a id="requests"><img src="menu-img/add-btn.png" class="add-btn">Опишите их здесь. Мы постараемся их выполнить.</a>
+			<input type="text" class="requests-input">
+			<div id="quantity-wrap">
+				<h5 id="quantity">Количество</h5>
+				<div class="counter-border" id="minus-btn">
+					<div id="quantity-minus"></div>
+				</div>
+				<h5 id="quantity-number">1</h5><h5 id="kg">кг</h5>
+				<div class="counter-border" id="plus-btn">
+					<div id="quantity-plus"></div>
+				</div>
+			</div>
+			<button type="button" class="card-order-btn">Добавить в корзину</button>
+		</dialog>
+		<div class="menu-item">
+			<img class="hidden-img" src="menu-img/trufelbig1.jpg">
+			<img src="menu-img/trufel-sm1.jpg" class="menu-img">
+			<h3 class="item-title" data-id="1">Трюфель из тёмного шоколада с орехами</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item">
+			<img class="hidden-img" src="menu-img/trufelbig2.jpg">
+			<img src="menu-img/trufel-sm2.jpg" class="menu-img">
+			<h3 class="item-title" data-id="2">Трюфель из белого шоколада с орехами</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item">
+			<img class="hidden-img" src="menu-img/trufelbig3.jpg">
+			<img src="menu-img/trufel-sm3.jpg" class="menu-img">
+			<h3 class="item-title" data-id="3">Трюфель из молочного шоколада с карамелью</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item">
+			<img class="hidden-img" src="menu-img/trufelbig4.jpg">
+			<img src="menu-img/trufel-sm4.jpg" class="menu-img">
+			<h3 class="item-title" data-id="4">Трюфель из тёмного шоколада с малиной</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="line" id="desserts-line"></div>
+		<h2 class="menu-heading">Десерты</h2>
+		<div class="line" id="desserts-second-line"></div>
+		<div class="menu-item dessert-item">
+			<img class="hidden-img" src="menu-img/karamelbanan.jpg">
+			<img src="menu-img/karamelbanan-sm.jpg" class="menu-img">
+			<h3 class="item-title" data-id="5">Карамельно-банановый десерт</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item dessert-item">
+			<img class="hidden-img" src="menu-img/vanilcooki.jpg">
+			<img src="menu-img/vanilcooki-sm.jpg" class="menu-img">
+			<h3 class="item-title" data-id="6">Печенье с ванильным кремом</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item dessert-item">
+			<img class="hidden-img" src="menu-img/heartdesert.jpg">
+			<img src="menu-img/heartdesert-sm.jpg" class="menu-img">
+			<h3 class="item-title" data-id="7">Чёрно-белое сердце</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+		<div class="menu-item dessert-item">
+			<img class="hidden-img" src="menu-img/goldchoco.jpg">
+			<img src="menu-img/goldchoco-sm.jpg" class="menu-img">
+			<h3 class="item-title" data-id="8">Плитка шоколада с золотыми фисташками</h3>
+			<p class="price">$90</p>
+			<button type="button" class="menu-btn">Добавить в корзину</button>
+			<img class="basket-icon" src="menu-img/basket-icon2.png">
+		</div>
+	</section>
+	<footer>
+		<p class="export-info">Самовывоз товара: Одесса, пер. Хвойный, 0 / Киев, ул. Лесная, 0, офис 13</p>
+		<p class="export-info">пн-пт - с 9:00 до 19:00; суббота - с 10:00 до 17:00; воскресенье - выходной</p>
+	</footer>
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
