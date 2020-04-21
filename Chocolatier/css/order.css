@@ -451,8 +451,9 @@ fieldset {
 	margin: 0 auto;
 	padding: 1em 0;
 	position: absolute;
-	top: 45vh;
-	left: 30%;
+	top: 42vh;
+	left: 0;
+	right: 0;
 	text-align: center;
 	background-color: #fff;
 }

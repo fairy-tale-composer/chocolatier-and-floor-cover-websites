@@ -154,6 +154,7 @@ dialog h5 {
 .counter-border {
 	width: 30px;
 	height: 30px;
+	margin-left: 8px;
 	border: 2px solid #8C4D3C;
 	border-radius: 50%;
 	cursor: pointer;
@@ -176,10 +177,8 @@ dialog h5 {
 	background-color: #8C4D3C;
 }
 #quantity-number {
-	margin: 0 5px 0 10px;
-}
-#kg {
-	margin-right: 10px;
+	width: 20px;
+	text-align: center;
 }
 #quantity-minus {
 	position: relative;

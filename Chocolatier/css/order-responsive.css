@@ -49,6 +49,9 @@
 	.contact-form {
 		padding: 0 10%;
 	}
+	#modal-window {
+		width: 500px;
+	}
 }
 @media screen and (max-width: 1050px) {
 	.order-section {
@@ -223,6 +226,9 @@
 	.responsive-map {
 		width: 90%;
 	}
+	#modal-window {
+		width: 85%;
+	}
 }
 @media screen and (max-width: 560px) {
 	.order-wrap {
@@ -256,6 +262,14 @@
 	}
 	#choose-p {
 		width: 80%;
+	}
+	.confirm-btn {
+		width: 225px;
+		height: 47px;
+		padding: 0;
+	}
+	#form-error-p {
+		margin: 1em;
 	}
 }
 @media screen and (max-width: 506px) {
@@ -301,6 +315,13 @@
 		order: 1;
 		margin-top: 10px;
 	}
+	.order-confirmed {
+		font-size: 1.5em;
+		line-height: normal;
+	}
+	#form-error-p {
+		font-size: 1.2em;
+	}
 }
 @media screen and (max-width: 450px) {
 	.order-item {
@@ -338,6 +359,9 @@
 	}
 	#delivery-sel {
 		width: 310px;
+	}
+	.order-confirmed {
+		font-size: 1.4em;
 	}
 }
 @media screen and (max-width: 420px) {

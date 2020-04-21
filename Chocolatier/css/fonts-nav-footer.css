@@ -50,10 +50,13 @@ nav {
 }
 .nav-toggler {
 	background: url(../img/menu-icon1.jpg) no-repeat center top / cover;
+	display: none;
 	width: 50px;
 	height: 50px;
-	margin-right: 15px;
-	display: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 5;
 	border: none;
 	box-shadow: 0px 0px 7px #fff, 2px 2px 7px #fff, -2px -2px 7px #fff;
 }
@@ -103,12 +106,13 @@ footer {
 @media screen and (max-width: 768px) {
 	.top-fixed-wrap {
 		background: none;
-		display: flex;
+		display: none;
 		right: 0;
 		width: auto;
 		height: 450px;
 	}
 	.nav-wrap-mob {
+		display: flex;
 		background-color: rgba(187, 134, 103, 0.8);
 		box-shadow: -3px 3px 5px #BE8A65;
 	}
@@ -117,10 +121,11 @@ footer {
 	}
 	nav {
 		flex-direction: column;
+		justify-content: space-around;
 		align-items: flex-end;
+		margin-top: 90px;
 	}
 	.icons {
-		visibility: hidden;
 		flex-wrap: wrap;
 		align-self: center;
 		width: 80px;
@@ -130,10 +135,6 @@ footer {
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: flex-end;
-		visibility: hidden;
-	}
-	.nav-list-dropped {
-		visibility: visible;
 		padding: 0 15px;
 	}
 	.nav-item {
