@@ -7,11 +7,19 @@
 	}
 }
 @media screen and (max-width: 900px) {
+	body {
+		background-size: 70%;
+		background-position: left 110%;
+	}
 	section {
 		width: 70%;
 	}
 }
 @media screen and (max-width: 768px) {
+	body {
+		background-size: 80%;
+		background-position: left top;
+	}
 	header h1 {
 		font-size: 7vw;
 		padding-bottom: 0.4em;
@@ -19,10 +27,14 @@
 }
 @media screen and (max-width: 675px) {
 	section {
-		width: 80%;
+		width: 75%;
 	}
 }
 @media screen and (max-width: 600px) {
+	body {
+		background-size: 90%;
+		background-position: 140% 20%;
+	}
 	header h1 {
 		font-size: 9vw;
 		width: 60vw;
@@ -41,16 +53,21 @@
 		padding-top: 40%;
 	}
 	section {
-		width: 90%;
+		width: 85%;
 		margin-top: 35%;
 	}
 }
 @media screen and (max-width: 450px) {
 	section {
+		width: 90%;
 		padding: 70px 0 40px 0;
 	}
 }
 @media screen and (max-width: 400px) {
+	body {
+		background-size: 130%;
+		background-position: 30% bottom;
+	}
 	form {
 		align-items: center;
 		width: inherit;
