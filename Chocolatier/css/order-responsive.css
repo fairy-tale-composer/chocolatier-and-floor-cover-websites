@@ -55,8 +55,8 @@
 }
 @media screen and (max-width: 1050px) {
 	body {
-		background-size: 70%;
-		background-position: -10% bottom;
+		background-size: 65%;
+		background-position: -21% -85%;
 	}
 	.order-section {
 		width: 85%;
@@ -131,6 +131,7 @@
 }
 @media screen and (max-width: 768px) {
 	body {
+		background-image: url(../menu-img/fon_chocolate_site_sm.jpg);
 		background-size: 80%;
 		background-position: center center;
 	}
@@ -220,8 +221,8 @@
 }
 @media screen and (max-width: 630px) {
 	body {
-		background-size: 95%;
-		background-position: -110% 50%;
+		background-size: 90%;
+		background-position: -110% 20%;
 	}
 	.header-heading:before {
 		padding-top: 32%;
@@ -250,6 +251,9 @@
 	}
 }
 @media screen and (max-width: 560px) {
+	body {
+		background-image: url(../menu-img/fon_chocolate_site_xs.jpg);
+	}
 	.order-wrap {
 		align-content: flex-start;
 		justify-content: space-evenly;
@@ -293,8 +297,8 @@
 }
 @media screen and (max-width: 506px) {
 	body {
-		background-size: 110%;
-		background-position: center bottom;
+		background-size: 85%;
+		background-position: center center;
 	}
 	.header-heading:before {
 		padding-top: 210px;
@@ -348,6 +352,10 @@
 	}
 }
 @media screen and (max-width: 450px) {
+	body {
+		background-size: 110%;
+		background-position: 50% 10%;
+	}
 	.order-item {
 		grid-template-columns: 90px 90px 90px;
 		grid-template-rows: 142px 70px 50px;

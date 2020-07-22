@@ -5,7 +5,7 @@ body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	background: url(../menu-img/fon_chocolate_site3.jpg) repeat center 9% / 60%;
+	background: url(../menu-img/fon_chocolate_site.jpg) repeat 52% 62% / 60%;
 }
 body h2, h3, h4 {
 	font-family: Allods-West;
