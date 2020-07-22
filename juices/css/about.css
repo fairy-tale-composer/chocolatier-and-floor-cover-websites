@@ -1,0 +1,75 @@
+/* общие стили */
+h1 {
+	font-family: Montserrat-Regular;
+	letter-spacing: 0.2em;
+	color: #80A001;
+}
+/* мобильная версия */
+.header-section-wrap {
+	min-height: calc(100vh - 125px);
+}
+h1 {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+.about-images-wrap {
+	border-bottom: 1px solid #80A001;
+}
+.about-img1, .about-img2 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.about-img1, .about-img3 {
+	display: none;
+}
+.about-img2 {
+	max-width: 90% !important;
+}
+/* медиа запросы */
+@media screen and (min-width: 450px) {
+	.about-img1 {
+		display: inline;
+	}
+	.about-img2 {
+		max-width: 50% !important;
+	}
+}
+@media screen and (min-width: 576px) {
+	h1 {
+		font-size: 1.5em;
+		line-height: normal;
+	}
+}
+@media screen and (min-width: 768px) {
+	.header-section-wrap {
+		min-height: calc(100vh - 95px) !important;
+	}
+	h1 {
+		font-size: 1.6em;
+		margin-top: 2em;
+		margin-bottom: 1.4em;
+	}
+	h2 {
+		font-size: 1.3em;
+	}
+	.about-images-wrap {
+		border-bottom: none;
+	}
+	.about-img1, .about-img2 {
+		display: none;
+	}
+	.about-img3 {
+		display: inline;
+		max-width: 416px;
+		width: 100%;
+		
+	}
+}
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 1.8em;
+		margin-top: 3em;
+		margin-bottom: 1.9em;
+	}
+}

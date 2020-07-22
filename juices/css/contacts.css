@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/* мобильная версия */
+.header-section-wrap {
+	min-height: calc(100vh - 125px);
+}
+h1 {
+	font-size: 1.4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.contacts-info-wrap {
+	width: 280px !important;
+	margin: 0 auto;
+}
+.form-wrap {
+	margin: 0 auto;
+}
+form {
+	width: 280px;
+}
+form input {
+	width: 100%;
+	padding: 5px 10px;
+} 
+form textarea {
+	width: 100%;
+	height: 200px;
+}
+/* общие стили */
+h1 {
+	font-family: Montserrat-Regular;
+	color: #80A001;
+	letter-spacing: 0.2em;
+}
+.contacts-info {
+	font-size: 1.1em;
+}
+#email-info {
+	margin: 1em 0 !important;
+}
+form {
+	flex-flow: column nowrap;
+}
+form input {
+	border: 1px solid #FF9E23;
+	font-family: Montserrat-Light;
+	font-size: 0.9em;
+}
+form input:hover, form textarea:hover {
+	border-width: 2px;
+}
+form textarea {
+	border: 1px solid #FF9E23;
+	padding: 5px 10px;
+}
+#submit-button {
+	font-family: 'Montserrat-Regular';
+	font-size: 1.1em;
+	color: #FF9E23;
+	letter-spacing: 1px;
+	border: none;
+	background: none;
+}
+#submit-button:hover {
+	color: #80A001;
+}
+#submit-button:focus {
+	color: #80A001;
+	outline: 2px dotted #80A001;
+}
+/* медиа запросы */
+@media screen and (min-width: 576px) {
+	h1 {
+		font-size: 1.5em;
+		line-height: normal;
+	}
+	.contacts-info-wrap {
+		width: auto;
+		margin: 0;
+	}
+	.form-wrap {
+		margin: 0;
+	}
+}
+@media screen and (min-width: 768px) {
+	.header-section-wrap {
+		min-height: calc(100vh - 95px) !important;
+	}
+	h1 {
+		font-size: 1.8em;
+		margin-top: 1em;
+		margin-bottom: 1.4em;
+	}
+	.contacts-info-wrap {
+		padding-left: 40px;
+	}
+	form {
+		width: 330px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container {
+		max-width: 920px;
+	}
+	.contacts-info-wrap {
+		padding-left: 15px;
+	}
+	form {
+		height: 110px;
+		width: 530px;
+		flex-wrap: wrap;
+	}
+	.inputs-wrap {
+		width: 48%;
+	}
+	form textarea {
+		width: 50%;
+		height: 100% !important;
+		margin-left: 10px;
+	}
+	form input {
+		width: 100%;
+		margin: 0;
+		padding: 2px 10px;
+	}
+}

@@ -1,0 +1,109 @@
+/* общие стили */
+.shop-section {
+	max-width: 1060px;
+}
+h1 {
+	font-family: Montserrat-Regular;
+	letter-spacing: 0.2em;
+	color: #80A001;
+	margin-left: 4%;
+}
+.juices-grid {
+	width: auto;
+	margin: 0 auto;
+}
+.juice-grid-item {
+	min-width: 290px !important;
+	cursor: pointer;
+}
+.new-or-discount {
+	display: inline;
+	padding: 0.3em 0.8em;
+	text-align: center;
+	color: #fff;
+	background-color: #B4D830;
+	position: absolute;
+	top: 0;
+	left: 0%;
+}
+.juice-item-wrap {
+	width: 100%;
+}
+.juice-item-img {
+	width: 100%;
+	height: auto;
+}
+.view-juice-a {
+	font-family: Montserrat-Regular;
+	font-size: 0.9em;
+	visibility: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 15px;
+	width: 100%;
+	padding: 0.7em 0;
+	text-align: center;
+	opacity: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	
+	transition-property: height, opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+.juice-title-wrap {
+	background-color: #e5f1cb;
+	padding: 5px 15px;
+	margin-bottom: 3px;
+}
+.juice-title {
+	font-family: Montserrat-Regular;
+	font-size: 1em;
+	color: #91a102 !important;
+}
+.juice-price {
+	font-family: Montserrat-Light;
+	font-size: 0.9em;
+	color: #91a102 !important;
+}
+/* мобильная версия */
+h1 {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+/* медиа-запросы */
+@media screen and (min-width: 576px) {
+	h1 {
+		font-size: 1.5em;
+		line-height: normal;
+	}
+	.juice-grid-item {
+		min-width: 270px !important;
+	}
+	.juice-item-wrap {
+		width: 100%;
+	}
+	.juice-item-img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 1.6em;
+		margin-top: 2em;
+		margin-bottom: 1.4em;
+	}
+	.juice-grid-item {
+		min-width: 240px !important;
+		padding: 0 10px !important;
+	}
+}
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 1.8em;
+		margin-top: 2.7em;
+		margin-bottom: 1.2em;
+	}
+}
