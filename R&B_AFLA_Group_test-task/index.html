@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>test task</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<section>
+			<div class="license-window">
+				<div class="license-window__list">
+					<div class="license-window__list-item">
+						<input type="radio" id="license1" name="license" value="LICENSE PLAN #1" class="license-window__list-item-input">
+						<label class="license-window__label" for="license1">LICENSE PLAN #1</label>
+						<p class="license-window__list-item-p">$<span class="license-price">13</span> per license</p>
+					</div>
+					<div class="license-window__list-item">
+						<input type="radio" id="license2" name="license" value="LICENSE PLAN #2" class="license-window__list-item-input">
+						<label class="license-window__label" for="license2">LICENSE PLAN #2</label>
+						<p class="license-window__list-item-p">$<span class="license-price">22</span> per license</p>
+					</div>
+					<div class="license-window__list-item">
+						<input type="radio" id="license3" name="license" value="LICENSE PLAN #3" class="license-window__list-item-input">
+						<label class="license-window__label" for="license3">LICENSE PLAN #3</label>
+						<p class="license-window__list-item-p">$<span class="license-price">34</span> per license</p>
+					</div>
+				</div>
+				<div class="license-window__number-wrap">
+					<p class="license-window__number-of-licenses-p">Number of licenses: <input class="license-window__number-input" value="1" type="number" min="1" max="10"></p>
+				</div>
+				<div class="license-window__total-wrap">
+					<h3 class="license-window__total">TOTAL <span class="license-window__total-price">$0</span><sup class="US-sup">US</sup></h3>
+					<button class="license-window__buy-button">BUY NOW</button>
+					<p class="license-window__selected-plan">Selected plan: <span class="license-window__selected-plan-number">#1</span></p>
+				</div>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
