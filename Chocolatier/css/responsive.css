@@ -1,7 +1,9 @@
-@media screen and (max-width: 1575px) {
+@media screen and (max-height: 600px) {
 	header {
-		height: 860px;
+		min-height: 600px;
 	}
+}
+@media screen and (max-width: 1575px) {
 	.story-wrap {
 		width: 75%;
 	}
