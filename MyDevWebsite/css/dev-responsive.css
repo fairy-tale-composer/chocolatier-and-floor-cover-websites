@@ -1,0 +1,129 @@
+@media screen and (orientation: landscape) {
+  section {
+    background-image: url("../img/tropical-leaves.jpg");
+    background-size: cover; } }
+
+@media screen and (orientation: landscape) and (min-height: 830px), screen and (orientation: portrait) and (min-width: 768px) and (min-height: 910px) {
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center; }
+  .resume {
+    height: 100%;
+    max-height: 750px; }
+    .resume__inner {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center; } }
+
+@media screen and (min-width: 420px) {
+  .menu-button {
+    top: 25px; }
+    .menu-button-first {
+      left: 50%;
+      transform: translateX(-50%); }
+    .menu-button-first:hover, .menu-button-first:focus {
+      transform: translateX(-50%) scale(0.9); }
+    .menu-button-second:hover, .menu-button-second:focus {
+      transform: scale(0.9); } }
+
+@media screen and (max-width: 575px) {
+  section {
+    background-image: url("../img/tropical-leaves-top-filled.jpg"), url("../img/tropical-leaves-down-filled.jpg"), url("../img/tropical-leaves-midle_fon2.png");
+    background-size: contain;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: center top, center bottom, left 20vh; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .bat-on-branch {
+    width: 170px; }
+  .menu-button-second {
+    right: 10%; }
+  section {
+    background-image: url("../img/tropical-leaves-top.png"), url("../img/tropical-leaves-down_b.png"), url("../img/tropical-leaves-midle_left2.png"), url("../img/tropical-leaves-midle_right2.png");
+    background-size: contain, contain, 23vw, 27vw;
+    background-position: center top, center bottom, left center, right center;
+    background-repeat: no-repeat; }
+  .resume {
+    width: 80%; } }
+
+@media screen and (min-width: 768px) {
+  .bat-on-branch {
+    width: 180px; }
+  .menu-button-second {
+    right: 10%; }
+  .resume {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 16% 74% 10%;
+    grid-column-gap: 10px;
+    width: 90%;
+    border: 2px solid #d6c750;
+    border-radius: 20px; }
+    .resume__heading-wrap {
+      grid-row: 1;
+      grid-column: 1; }
+    .resume__name {
+      font-size: 38px; }
+    .resume__inner {
+      grid-row: 2;
+      grid-column: 1; }
+    .resume__photo-wrap {
+      grid-row: 1/3;
+      grid-column: 2;
+      align-self: center;
+      margin-top: 0; }
+    .resume__contacts {
+      grid-row: 3;
+      grid-column: 1/3;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px; }
+  .icreate-list {
+    padding: 0 10%;
+    max-width: 100%; }
+  .icreate-list__item, .iuse-list__item {
+    font-size: 18px; } }
+
+@media screen and (min-width: 800px) {
+  .resume__contacts {
+    text-align: left; } }
+
+@media screen and (min-width: 992px) {
+  .bat-on-branch {
+    width: 190px; }
+  section {
+    padding-top: 8%;
+    padding-bottom: 8%; }
+  .menu-button {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px; }
+    .menu-button-first {
+      left: 0; }
+    .menu-button-second {
+      right: 0; }
+    .menu-button-first:hover, .menu-button-first:focus {
+      transform: translateY(-50%) scale(0.9); }
+    .menu-button-second:hover, .menu-button-second:focus {
+      transform: translateY(-50%) scale(0.9); }
+  .resume {
+    grid-template-columns: 1fr 320px;
+    width: 80%; }
+    .resume__name {
+      font-size: 42px; }
+    .resume__job {
+      font-size: 22px; }
+    .resume__email {
+      padding-left: 1em; }
+    .resume__telegram {
+      padding-right: 1em; } }
+
+@media screen and (min-width: 1200px) {
+  .bat-on-branch {
+    width: 200px; }
+  .resume {
+    grid-template-columns: 1fr 350px;
+    width: 73%; }
+    .resume__name {
+      font-size: 46px; } }
