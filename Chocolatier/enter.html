@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Войти\зарегистрироваться</title>
+	<link rel="stylesheet" href="css/enter-min.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+	<button type="button" class="nav-toggler"></button>
+	<div class="top-fixed-wrap">
+		<nav>
+			<ul class="nav-list">
+				<li class="nav-item nav-item-active"><a href="index.html">Главная</a></li>
+				<li class="nav-item"><a href="menu.html">Меню</a></li>
+				<li class="nav-item"><a href="order.html">Заказать</a></li>
+				<li class="nav-item"><a href="index.html#contacts-section">Контакты</a></li>
+			</ul>
+			<div class="icons">
+				<img src="img/iconfacebr.png" title="facebook">
+				<img src="img/icontwitbr.png" title="twitter">
+				<img src="img/iconwhatsbr.png" title="whatsapp">
+				<img src="img/iconinstbr.png" title="instagram">
+			</div>
+		</nav>
+	</div>
+  <div class="wrap-for-sections">
+	<header>
+		<div class="title-wrap">
+			<h1>Создание учётной записи</h1>
+		</div>
+	</header>
+	<section id="registration-section">
+		<form name="registration">
+			<label>
+				<p>Имя <span class="red-star">*</span></p>
+				<input type="text">
+			</label>
+			<label>
+				<p>Email <span class="red-star">*</span></p>
+				<input type="email">
+			</label>
+			<label>
+				<p>Пароль <span class="red-star">*</span></p>
+				<input type="password">
+			</label>
+			<button id="register-btn" class="submit-btn" type="submit">Регистрация</button>
+		</form>
+		<div class="toggle-form">
+			<p>Уже есть учётная запись?</p>
+			<button id="toggle-to-enter-btn" class="toggle-btn" type="button">Войти</button>
+		</div>
+	</section>
+	<section id="enter-section">
+		<form name="enter">
+			<label>
+				<p>Email</p>
+				<input type="email">
+			</label>
+			<label>
+				<p>Пароль</p>
+				<input type="email">
+			</label>
+			<button class="submit-btn" type="submit">Вход</button>
+		</form>
+		<div class="toggle-form">
+			<p>Ещё нет учётной записи?</p>
+			<button id="toggle-to-register-btn" class="toggle-btn" type="button">Создать</button>
+		</div>
+	</section>
+</div>
+	<footer>
+		<p class="export-info">Самовывоз товара: Одесса, пер. Хвойный, 0 / Киев, ул. Лесная, 0, офис 13</p>
+		<p class="export-info">пн-пт - с 9:00 до 19:00; суббота - с 10:00 до 17:00; воскресенье - выходной</p>
+	</footer>
+	<script type="text/javascript" src="js/enter-min.js"></script>
+</body>
+</html>
