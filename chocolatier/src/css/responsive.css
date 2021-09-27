@@ -1,0 +1,384 @@
+@media screen and (max-height: 600px) {
+	header {
+		min-height: 600px;
+	}
+}
+@media screen and (max-width: 1575px) {
+	.story-wrap {
+		width: 75%;
+	}
+	.story-content {
+		width: 50%;
+	}
+	.chocofriend-content {
+		width: 55%;
+	}
+	.cacao-content h3 {
+		width: 350px;
+	}
+}
+@media screen and (max-width: 1420px) {
+	.chocofriend-content {
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 1355px) {
+	.story-wrap {
+		width: 90%;
+	}
+	.story-content {
+		width: 45%;
+	}
+	.chocofriend-content {
+		margin: 0 auto;
+		padding-left: 0;
+		width: 745px;
+	}
+	.chocofriend-content h4 {
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.titles-wrap {
+		width: 100%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1260px) {
+	#trufel-video-bg {
+		background: url(../img/trufel-bg-sm.jpg) center top / cover;
+	}
+	.story-wrap {
+		width: 100%;
+		padding: 0 20px;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 1120px) {
+	.story-content {
+		width: 50%;
+		padding: 0 40px;
+	}
+	.story-content h2 {
+		font-size: 2.5em;
+	}
+	.chocofriend-content h2 {
+		font-size: 2.5em;
+	}
+	.chocofriend-content h4 {
+		font-size: 1.4em;
+	}
+}
+@media screen and (max-width: 992px) {
+	body {
+		font-size: 80%;
+	}
+	.chocolate-title {
+		font-size: 30px;
+	}
+	.titles-wrap h1 {
+		font-size: 100px;
+	}
+	.header-btn a {
+		font-size: 26px;
+	}
+	#marina-img {
+		width: 35%;
+		height: 35%;
+	}
+	.story-content {
+		padding: 0 25px;
+	}
+	.story-content p:last-child {
+		margin-top: 20px;
+	}
+	.story-img {
+		width: 45%;
+		height: 70%;
+	}
+	.story-img img {
+		width: 48%;
+		height: 48%;
+	}
+	.story-img img:first-child {
+		margin-bottom: 15px;
+	}
+	.chocofriend-content {
+		width: 580px;
+	}
+	.cacao-content h3 {
+		width: 280px;
+	}
+	.cacao-img {
+		width: 43%;
+	}
+	.cacao-img img {
+		width: 48%;
+		height: 48%;
+	}
+	.contacts-wrap {
+		width: 100%;
+		padding: 0 10%;
+	}
+}
+@media screen and (max-width: 1050px) and (min-height: 860px) {
+	header {
+		background-image: url(../img/chocolateBgRot.jpg);
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.titles-wrap {
+		width: auto;
+		height: auto;
+		padding: 3em 2em;
+		background: rgba(255, 255, 255, 0.2)
+	}
+	.header-btn {
+		margin-top: 3vh;
+	}
+}
+
+@media screen and (max-width: 835px) {
+	body {
+		font-size: 90%;
+	}
+	.about-section {
+		padding: 50px 0;
+	}
+	.story-wrap {
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+	.story-content {
+		width: 95%;
+		padding: 25px 10%;
+	}
+	#marina-img {
+		width: 60%;
+		height: auto;
+		margin-top: 20px;
+	}
+	.story-img {
+		margin-top: 3em;
+		width: 60%;
+		height: auto;
+	}
+	#candy-button1 {
+		display: none;
+	}
+	#candy-button2 {
+		display: inline;
+	}
+	.chocofriend-content {
+		width: 70%;
+	}
+	.chocofriend-content h2 {
+		font-size: 32px;
+	}
+	.chocofriend-content h4 {
+		font-size: 20px;
+	}
+	.cacao-content h3 {
+		width: auto;
+	}
+	.cacao-img {
+		width: 60%;
+	}
+	.contacts-wrap {
+		padding: 0 5%;
+	}
+	.contacts-section h2 {
+		font-size: 32px;
+	}
+	.contacts h3 {
+		font-size: 26px;
+	}
+	.social-networks p {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		background-image: url(../img/chocolateBgRot.jpg);
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.titles-wrap {
+		width: auto;
+		height: auto;
+		padding: 3em 2em;
+		background: rgba(255, 255, 255, 0.2);
+	}
+	.chocolate-title {
+		margin-bottom: 25px;
+		font-size: 28px;
+	}
+	.titles-wrap h1 {
+		font-size: 80px;
+		margin-bottom: 0.3em;
+	}
+	.header-btn {
+		margin-top: 3vh;
+	}
+	.header-btn a {
+		font-size: 24px;
+	}
+	#trufel-video-bg {
+		width: 100%;
+		height: 420px;
+	}
+	#trufel-video-bg video {
+		display: none;
+	}
+	#candy-button2 {
+		width: 170px;
+		height: auto;
+	}
+	.contacts-section h2 {
+		font-size: 30px;
+		width: 320px;
+		margin: 0 auto;
+	}
+	.contacts {
+		width: 300px;
+		height: 80px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.contacts h3 {
+		font-size: 24px;
+	}
+	.social-networks {
+		justify-content: flex-start;
+		align-items: center;
+		width: 330px;
+		height: 190px;
+		margin: 0 auto;
+	}
+	.social-networks p {
+		font-size: 22px;
+	}
+	.social-networks p:first-child {
+		margin: 0;
+	}
+	.social-networks p:nth-child(2) {
+		margin: 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.cacao-content h3 {
+		width: 310px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.titles-wrap {
+		width: 100%;
+	}
+	#marina-img {
+		width: 70%;
+	}
+	.story-img {
+		width: 80%;
+	}
+	.cacao-img {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 540px) {
+	body {
+		 font-size: 85%;
+	}
+	.chocolate-title {
+		font-size: 26px;
+	}
+	.titles-wrap h1 {
+		font-size: 64px;
+		letter-spacing: 0.05em;
+	}
+	.story-content {
+		padding: 25px 5%;
+	}
+	.story-content h2 {
+		line-height: 1.3em;
+	}
+	.chocofriend-content h2 {
+		font-size: 28px;
+	}
+	.chocofriend-content h4 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 420px) {
+	body {
+		font-size: 80%;
+	}
+	.chocolate-title {
+		font-size: 24px;
+	}
+	.titles-wrap h1 {
+		font-size: 54px;
+	}
+	.header-btn a {
+		font-size: 22px;
+	}
+	.story-wrap {
+		padding: 0;
+	}
+	#marina-img {
+		width: 85%;
+	}
+	.story-img {
+		width: 85%;
+	}
+	.story-content h2 {
+		font-size: 2.4em;
+	}
+	.story-content h3 {
+		line-height: 2em;
+	}
+	.chocofriend-content {
+		width: 80%;
+	}
+	.chocofriend-content h2 {
+		font-size: 26px;
+	}
+	.cacao-img {
+		width: 85%;
+	}
+	.cacao-content h3 {
+		width: 280px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.chocolate-title {
+		font-size: 22px;
+	}
+	.contacts-section {
+		height: 550px;
+	}
+	.contacts-wrap {
+		padding: 0;
+	}
+	.contacts-section h2 {
+		font-size: 28px;
+	}
+	.social-networks {
+		width: 270px;
+	}
+	.social-networks p {
+		font-size: 20px;
+	}
+	.social-networks img {
+		margin-right: 5px;
+		width: 30px;
+		height: 30px;
+	}
+}
