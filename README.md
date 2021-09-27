@@ -6,3 +6,5 @@
 
 2. Floor cover - business card website. Only layout.
 [view as a website](https://composercoder.github.io/floor-cover/build/index.html)
+
+*Both websites are built only with pure HTML, CSS and JavaScript.*
