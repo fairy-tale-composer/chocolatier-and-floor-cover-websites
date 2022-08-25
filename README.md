@@ -8,3 +8,6 @@
 [view as a website](https://curious-lemur.github.io/floor-cover/build/index.html)
 
 *Both websites are built only with pure HTML, CSS and JavaScript.*
+
+![Chocolatier website](/chocolatier/chocolatier_menu.jpg)
+![Floor-cover website](/floor-cover/Floor1.jpg)
